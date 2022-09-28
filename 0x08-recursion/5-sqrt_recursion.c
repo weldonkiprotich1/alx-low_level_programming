@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqrt_recursion
+ * sqrt_recursion :The program that return square root
  * function that returns the natural square root of a number
  * n does not have a natural square root, the function should return -1
  *  @a: The entry is equal to n, of the before function
@@ -19,7 +19,7 @@ int sqrt_recursion(int a, int b)
 /**
  * _sqrt_recursion This is the function that is going to perform square root
  * @n: This is my value
- * eturn: This is my result of the function sqrt_recursion
+ * Return: This is my result of the function sqrt_recursion
  */
 int _sqrt_recursion(int n)
 {
