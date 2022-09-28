@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * sqrt_recursion :The program that return square root
- * function that returns the natural square root of a number
- * n does not have a natural square root, the function should return -1
+ * sqrt_recursion - This is my sqrt_recursion
+ *                  function about the square root
  *  @a: The entry is equal to n, of the before function
  *  @b: This is the sum
- *  Return: This is the result
+ *
+ *  Return: This is the final result
  */
+ 
 int sqrt_recursion(int a, int b)
 {
 	if (a == (b * b))
@@ -16,9 +17,11 @@ int sqrt_recursion(int a, int b)
 	else
 		return (sqrt_recursion(a, b + 1));
 }
+
 /**
- * _sqrt_recursion This is the function that is going to perform square root
+ * _sqrt_recursion - This is my first function
  * @n: This is my value
+ *
  * Return: This is my result of the function sqrt_recursion
  */
 int _sqrt_recursion(int n)
